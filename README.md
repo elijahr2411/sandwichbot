@@ -15,7 +15,7 @@ The bot is preconfigured to be run in a Heroku app, however in it's current stat
 Nonetheless, if for some reason you still want to run it in Heroku, it's very simple.
 
 1. Fork this repository as **private** (very important as otherwise your bot token will be exposed
-2. Edit main.py and insert your token inside the `bot.run` field
+2. Rename `config.example.py` to `config.py` and insert details into the fields
 3. Create a new heroku app and link it to your fork (the creation wizard will prompt you to do so)
 4. Add one dyno to the worker process
 
@@ -31,8 +31,6 @@ Nextcord => 2.0.0a3
 ```
 
 To run the bot:
-1. Edit the main.py file and insert your bots token in the bottom (inside the `bot.run` field
+1. Rename `config.example.py` to `config.py` and insert details into the fields
 2. **OPTIONAL:** Remove the Heroku environment files (`Procfile`, `requirements.txt`, and `runtime.txt`)
 3. Run main.py
-
-Note that eventually a config file will be added to insert your token, but this is far from a production version.

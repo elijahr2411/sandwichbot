@@ -31,3 +31,7 @@ desktop.ini
 # Cache #
 #########
 __pycache__
+
+# Configuration files #
+#####################
+config.py
