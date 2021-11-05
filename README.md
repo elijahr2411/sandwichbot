@@ -18,6 +18,7 @@ Nonetheless, if for some reason you still want to run it in Heroku, it's very si
 2. Edit main.py and insert your token inside the `bot.run` field
 3. Create a new heroku app and link it to your fork (the creation wizard will prompt you to do so)
 4. Add one dyno to the worker process
+
 Your bot should now be running.
 
 ### Running manually
