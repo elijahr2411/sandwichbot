@@ -32,6 +32,7 @@ Nextcord => 2.0.0a3
 
 To run the bot:
 1. Edit the main.py file and insert your bots token in the bottom (inside the `bot.run` field
-2. Run main.py
+2. **OPTIONAL:** Remove the Heroku environment files (`Procfile`, `requirements.txt`, and `runtime.txt`)
+3. Run main.py
 
 Note that eventually a config file will be added to insert your token, but this is far from a production version.
