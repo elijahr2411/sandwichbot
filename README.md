@@ -9,7 +9,7 @@ Yes, I know bots like this already exist, however most are now defunct and the o
 ## Running the bot
 First note that in it's current state the bot is a simple test (pretty much equivalent to a Hello World) and is not ready to be used at all
 
-###Heroku
+### Heroku
 The bot is preconfigured to be run in a Heroku app, however in it's current state there is no reason to do that as it cannot be used in production.
 
 Nonetheless, if for some reason you still want to run it in Heroku, it's very simple.
@@ -20,7 +20,7 @@ Nonetheless, if for some reason you still want to run it in Heroku, it's very si
 4. Add one dyno to the worker process
 Your bot should now be running.
 
-###Running manually
+### Running manually
 If you want to run the bost locally or on a non-heroku server, it's very easy. First, install the (very few) dependencies.
  
 #### Dependencies:
