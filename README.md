@@ -29,6 +29,7 @@ If you want to run the bost locally or on a non-heroku server, it's very easy. F
 ```
 Python => 3.9.7
 Nextcord => 2.0.0a3
+mysql-connector-python => 8.0.27
 MySQL or MariaDB, with an empty database and full write access
 ```
 
