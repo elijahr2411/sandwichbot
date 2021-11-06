@@ -1,2 +1,2 @@
 nextcord
-mysql
+mysql-connector-python

@@ -9,6 +9,7 @@ Yes, I know bots like this already exist, however most are now defunct and the o
 ## Running the bot
 First note that in it's current state the bot is a simple test (pretty much equivalent to a Hello World) and is not ready to be used at all
 
+Also, don't worry about removing your bot token and db information before pushing. The gitignore is set to ignore config.py.
 ### Heroku
 The bot is preconfigured to be run in a Heroku app, however in it's current state there is no reason to do that as it cannot be used in production.
 
@@ -28,9 +29,12 @@ If you want to run the bost locally or on a non-heroku server, it's very easy. F
 ```
 Python => 3.9.7
 Nextcord => 2.0.0a3
+MySQL or MariaDB, with an empty database and full write access
 ```
 
 To run the bot:
 1. Rename `config.example.py` to `config.py` and insert details into the fields
 2. **OPTIONAL:** Remove the Heroku environment files (`Procfile`, `requirements.txt`, and `runtime.txt`)
 3. Run main.py
+
+
