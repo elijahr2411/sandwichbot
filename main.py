@@ -11,6 +11,8 @@ print("==== Early Beta ====")
 print("====================")
 print("Not nearly ready for production.")
 print("Most features have not been implemented.")
+print("(c) 2022 Elijah R")
+print("This software is released under the GNU General Public License, Version 3 under absolutely NO WARRANTY, to the extent allowed by applicable law")
 print("\033[00m")
 sleep(1)
 #  Make sure the user has created the config file.
