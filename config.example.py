@@ -19,6 +19,10 @@ dbUsername = "username"
 
 # Database password
 dbPassword = "password"
+
+# Table prefix (Leave blank if unsure)
+dbPrefix = "sb_"
+
 ######################
 # STOP EDITING HERE  #
 ######################
@@ -33,3 +37,5 @@ def cfg(cfgval):
 		return(dbUsername)
 	if cfgval == "dbPassword":
 		return(dbPassword)
+	if cfgval == "dbPrefix":
+		return(dbPrefix)
