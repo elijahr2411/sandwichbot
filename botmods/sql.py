@@ -1,12 +1,12 @@
 # Import MySQL connector
 import mysql.connector
 from mysql.connector import errorcode
-# Import the configuration file 
-import config
+# Import the configuration file
+from config import cfg
 # Connect to the database
 # If it fails, throw an error and exit.
 try:
-	db = mysql.connector.connect(user=config.dbUsername, password=config.dbPassword, host=config.dbAddress, database=config.dbName)
+	db = mysql.connector.connect(user=cfg("dbUsername"), password=cfg("dbPassword"), host=cfg("dbAddress"), database=cfg("dbName"))
 except mysql.connector.Error as err:
 	# Access Denied Error
   if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
